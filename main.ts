@@ -1,7 +1,7 @@
 /* Copyright (c) 2020 MTHS All rights reserved
  *
  * Created by: Daki A.B
- * Created on: Sep 2023
+ * Created on: Oct 2023
  * This program plays Cookie Clicker on a MicroBit
 */
 
@@ -16,17 +16,13 @@ numberOfCookiesPressed = numberOfCookiesPressed + 1
 numberOfCookiesPressed = 0
 
 input.onButtonPressed(Button.A, function () {
-
   numberOfCookiesPressed = numberOfCookiesPressed + 1
   basic.showNumber(numberOfCookiesPressed)
-
 })
 
 // on "B" button pressed
 
 input.onButtonPressed(Button.B, function () {
-
   numberOfCookiesPressed = 0
   basic.showNumber(numberOfCookiesPressed)
-
 })
